@@ -36,6 +36,11 @@
         }
 
 
+        .bold {
+          font-weight: bolder;
+        }
+
+
 
       }
 
@@ -51,9 +56,6 @@
     <a class="nav-link" href="index.html">Home</a>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="profile.html">Profile</a>
-  </li>
-  <li class="nav-item">
     <a class="nav-link active" href="portfolio.html">Portfolio</a>
   </li>
 </ul>
@@ -61,8 +63,74 @@
     <path fill="#0099ff" fill-opacity="1" d="M0,224L26.7,208C53.3,192,107,160,160,138.7C213.3,117,267,107,320,112C373.3,117,427,139,480,176C533.3,213,587,267,640,272C693.3,277,747,235,800,186.7C853.3,139,907,85,960,58.7C1013.3,32,1067,32,1120,74.7C1173.3,117,1227,203,1280,240C1333.3,277,1387,267,1413,261.3L1440,256L1440,0L1413.3,0C1386.7,0,1333,0,1280,0C1226.7,0,1173,0,1120,0C1066.7,0,1013,0,960,0C906.7,0,853,0,800,0C746.7,0,693,0,640,0C586.7,0,533,0,480,0C426.7,0,373,0,320,0C266.7,0,213,0,160,0C106.7,0,53,0,27,0L0,0Z"></path>
   </svg>
 <div class="row">
-
   <h1 class="display-4 mx-auto mt-3">PORTFOLIO</h1>
+</div>
+<div class="row mt-3">
+  <div class="col-md-6">
+    <h1 class=" ml-3 mt-5">SuperB</h1>
+    <p class="ml-3 indi">SuperB is a native iOS app that help basketball players to train their dribble skill. We started to develop SuperB after our research and interview.
+      We found that dribbling skill is the most basic and crucial skill in basketball. It is also one of skill that can be trained alone at home. But we found a few pain points in training dribbling skill alone which are lack of drills set menu, lack of training progress, and lack of feedback. We want to help tackle those problems with SuperB.
+      We also want make the drills more interactive by simulating a real drills used by coach to distract players by pocking their off hands with a stick while they’re dribbling to train their concentration, ball handling, and reaction time. For the tech , we use Vision Framework to detect body pose and to detect basketball object for dribble counting using datasets that we gather together.
+      <br> In this project my role is Lead Developer and mainly working on the Vision part.
+      <br> <br>
+      1. Master your drills start from the basic to advance<br>
+      2. Give feedback based on your result<br>
+      3. Track your progress
+    </p>
+    <p class="ml-3">  <span class="bold">Tech Used</span> : Swift (UIKit), Vision , CreateML  <br>
+  </div>
+  <div class="col-md-6">
+<img src="superb.png" style="width: 90%;" alt="">
+  </div>
+</div>
+<div class="row  mt-5">
+  <div class="col-md-3 text-center">
+    <img src="dreamer.png" style="width: 50%; height: 100%;">
+    
+  </div>
+  <div class="col-md-3">
+    <img src="dreamer-qr.png" style="width: 50%; height: 100%;">
+  </div>
+  <div class="col-md-6">
+    <h1 class=" mt-5">Dreamer</h1>
+    <p class=" indi">A Team project made in Apple Developer Academy. We start from a big idea "Finance" and we want to make someone manage their money better. After our research we found that having and making a S.M.A.R.T goal is essential to help someone manage their money better. That's why we made <span class="bold">Dreamer</span>    , A native iOS App for first time worker to manage money better by creating attainable goal ("pay yourself first" method).<br>
+      1. Suggestion based on goal and income<br>
+      2. Information about goals<br>
+      3. Count how much you need to save by also considering goals and inflation 
+    </p>
+    <p >  <span class="bold">Tech Used</span> : Swift (UIKit)   <br>
+    <p>Scan the QR Code on the left to try it on TestFlight</p>
+  </div>
+</div>
+<div class="row mt-5">
+  <div class="col-md-6">
+    <h1 class="ml-5 mt-5">Pengajuan Kredit Bank Bengkulu</h1>
+    <p class="ml-5 indi">A website that made to make the process of applying for a loan easier.<br>
+      1. Dynamic form for every product <br>
+      2. Multi level user<br>
+      3. Full Report 
+    </p>
+    <p class="ml-5" >  <span class="bold">Tech Used</span> : Laravel Framework, Bootstrap, MySQL <br>
+  </div>
+  <div class="col-md-6">
+    <img src="bengkulu.png" style="width: 100%; height: 100%;">
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-6">
+    <img src="bmt-muda.png" style="width: 100%; height: 100%;">
+  </div>
+  <div class="col-md-6">
+    <h1 class="ml-5 mt-5">Koperasi BMT MUDA</h1>
+    <a href="https://bmt-muda.com" class="ml-5 indi" target="_blank">bmt-muda.com</a>
+    <p class="ml-5 indi">A website that used by customer, teller, and administrator for transaction in "Koperasi"<br>
+      1. Syariah <br>
+      2. Dynamic finance model <br>
+      3. Report 
+    </p>
+    <p class="ml-5" >  <span class="bold">Tech Used</span> : Laravel Framework, Bootstrap, MySQL <br>
+    </p>
+  </div>
 </div>
 <div class="row">
   <div class="col-md-6">
@@ -73,6 +141,8 @@
       2. Administration system<br>
       3. Push notification for new order<br>
       4. Staff's multi order capability
+    </p>
+    <p class="ml-5" >  <span class="bold">Tech Used</span> : Laravel Framework, Bootstrap, MySQL, Kotlin, jQuery, Google Maps API  <br>
     </p>
   </div>
   <div class="col-md-6">
@@ -86,19 +156,20 @@
   <div class="col-md-6">
     <h1 class=" mt-3 mulya">Mulya Jaya Abadi Warehouse System</h1>
     <a href="https://mjasurabaya.com" class="mulya" target="_blank">mjasurabaya.com</a>
-    <p class="mulya">An Android apps and website integrated to do stock opname<br>
+    <p class="mulya">An Android apps and website integrated to manage stock from warehouse to seller<br>
       1. Barcode scan using android camera <br>
       2. Built-in calculator<br>
       3. Data export import to csv or xlsx<br>
       4. Multi level user <br>
-
+    </p>
+    <p >  <span class="bold">Tech Used</span> : Laravel Framework, Bootstrap, MySQL, Kotlin, jQuery  <br>
     </p>
   </div>
 </div>
 <div class="row">
   <div class="col-md-6 mt-3">
     <h1 class="ml-5 mt-3 jatim">Jatim Autocomp Indonesia Inventory System</h1>
-    <p class="ml-5 jatim">A website that built using Laravel Framework, Bootstrap, and also SQL Server as the DBMS.
+    <p class="ml-5 jatim">
       It's a team project and my part is to make the report module such as : <br>
       1. Pemasukan Barang<br>
       2. Pengeluaran Barang<br>
@@ -106,6 +177,8 @@
       4. Mutasi Barang Jadi<br>
       5. Mutasi Alat Kantor<br>
       6. Mutasi Scrap
+    </p>
+    <p class="ml-5">  <span class="bold">Tech Used</span> : Laravel Framework, Bootstrap, SQL Server  <br>
     </p>
 
   </div>
@@ -115,33 +188,36 @@
   </div>
 </div>
 
-<div class="row">
+<div class="row mt-5">
   <div class="col-md-6 mt-3">
     <img src="moneymanagement.png" class="img-fluid ml-2 money">
   </div>
   <div class="col-md-6 mt-3" >
     <h1 class="ml-3 mt-3">Money Management System</h1>
-    <p class="ml-3">A website that built using Laravel Framework, Bootstrap, and also MySQL.
+    <p class="ml-3">A website for you to manage your money.
       Website Features : <br>
       1. In this website you can note your income and expense. <br>
       2. Report for income and expense ratio, income trend, and also expense trend.<br>
       3. Make a savings plan for your goals.<br>
       4. Create your own transaction category
     </p>
+    <p class="ml-3">  <span class="bold">Tech Used</span> : Laravel Framework, Bootstrap, MySQL  <br>
+    </p>
   </div>
 </div>
 
-<div class="row">
+<div class="row mt-5">
   <div class="col-md-12">
     <h1 class="mt-3 text-center">Professor Flashlight</h1>
-    <p class="mt-3 text-center">A game about zombie shooter made with c# made for Student Challenge Ubaya 2017 <br>
+    <p class="mt-3 text-center">A game about zombie shooter made for Student Challenge Ubaya 2017 <br>
             It's a 2D game where you can shoot zombies and save some civillian <br>
           Features :<br>
     1.High Score<br>
     2.Survival Mode<br>
     3.Bomb<br>
     4.Mission Mode
-
+  </p>
+  <p class="text-center">  <span class="bold">Tech Used</span> : C#  <br>
   </p>
   </div>
   
@@ -158,42 +234,34 @@
 </div>
 
 
-
-
-
-
-
 <div class="row">
     <div class="col-md-12 mt-3">
      <h1 class="mt-3 text-center">Sehatin</h1>
-    <p class="text-center">An Android apps written in Kotlin to see restaurant list in Surabaya and give review to it <br>
+    <p class="text-center">An Android apps to see restaurant list in Surabaya and give review to it <br>
       Features : <br>
       1. Add and See Review<br>
       2. Open Maps<br>
       3. See News About Healthy Life
   </p>
+  <p class="text-center">  <span class="bold">Tech Used</span> : Kotlin , Volley <br>
+  </p>
   </div>
 </div>
-
-
-
-
-
-
-
 
 
 <div class="row">
 
   <div class="col-md-12">
-    <h1 class="mt-3 text-center">Instagram Prototype Backend</h1>
-    <p class="text-center">An Instagram prototype made for fun using native PHP <br>
-      It has basic functionality of Instagram such as : <br>
+    <h1 class="mt-3 text-center">Instagram Backend Prototype</h1>
+    <p class="text-center">An Instagram backend prototype made for fun <br>
+      <span class="bold">Features</span> : <br>
       1. Register and Login. <br>
       2. Upload Multiple Photos.<br>
       3.Comment.<br>
       4. Like.<br>
       5. User Search<br>
+  </p>
+  <p class="text-center">  <span class="bold">Tech Used</span> : PHP <br>
   </p>
   </div>
   
@@ -209,10 +277,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320">
   <path fill="#0099ff" fill-opacity="1" d="M0,224L26.7,208C53.3,192,107,160,160,138.7C213.3,117,267,107,320,112C373.3,117,427,139,480,176C533.3,213,587,267,640,272C693.3,277,747,235,800,186.7C853.3,139,907,85,960,58.7C1013.3,32,1067,32,1120,74.7C1173.3,117,1227,203,1280,240C1333.3,277,1387,267,1413,261.3L1440,256L1440,320L1413.3,320C1386.7,320,1333,320,1280,320C1226.7,320,1173,320,1120,320C1066.7,320,1013,320,960,320C906.7,320,853,320,800,320C746.7,320,693,320,640,320C586.7,320,533,320,480,320C426.7,320,373,320,320,320C266.7,320,213,320,160,320C106.7,320,53,320,27,320L0,320Z"></path>
 </svg>
-
-
-
-
 
 
 </div>
